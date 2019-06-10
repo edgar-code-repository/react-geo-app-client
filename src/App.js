@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Continents from './components/continents/Continents';
+import AddContinent from './components/continents/AddContinent';
+import EditContinent from './components/continents/EditContinent';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />      
+      <div className="container">      
+          <Route exact path="/" component={Main} />
+          <Route path="/continents" component={Continents} />
+          <Route path="/add_continent" component={AddContinent} />
+          <Route path="/edit_continent/:continent_id" component={EditContinent} />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,9 @@
+.img-size-class {
+    width: 350px;
+    min-height:250px;
+}
+
+.img-loading-size-class {
+    width: 150px;
+    min-height: 150px;
+}

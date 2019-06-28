@@ -102,6 +102,7 @@ class Continents extends React.Component {
                 <div style={this.state.error_div_style}>
                     <ErrorMessage title={error_title} error={error} />
                 </div>
+                
             </div>
         )
     }

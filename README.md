@@ -1,9 +1,9 @@
 THE (REACT) GEO APP CLIENT
 --------------------------------------------------------------------------------------------------------------------
 
-Aplicación SPA desarrollada con React 16.8.6 que almacena información de continentes, países y ciudades.
+Aplicación SPA desarrollada con React 16 que almacena información de continentes, países y ciudades.
 
-La aplicación utiliza axios para conectarse a una API Rest desarrollada con Spring Boot y que permte almacenar
+La aplicación utiliza axios para conectarse a una API Rest desarrollada con Spring Boot y que permite almacenar
 la información en MongoDB: 
 
 https://github.com/edgar-code-repository/spring-boot-rest-geo-api
@@ -34,5 +34,4 @@ Pantalla principal de CRUD de ciudades:
 
 --------------------------------------------------------------------------------------------------------------------
 
-Github repository:  https://github.com/edgar-code-repository/react-geo-app-client
 

@@ -1,39 +1,38 @@
 THE (REACT) GEO APP CLIENT
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
-Aplicación SPA desarrollada con React 16 que almacena información de continentes, países y ciudades.
+App developed with React 16 that retrieves info about continents, countries and cities.
 
-La aplicación utiliza axios para conectarse a una API Rest desarrollada con Spring Boot y que permite almacenar
-la información en MongoDB: 
+This app uses Axios to fire a Rest API built with Spring Boot:
 
 **THE GEO REST API (SPRING BOOT)**
 
 https://github.com/edgar-code-repository/spring-boot-rest-geo-api
 
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
-Pantalla principal:
+Main screen:
 
 ![Screenshot Main](screenshots/main_page.png)
 
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
-Pantalla principal de CRUD de continentes:
+Continents screen:
 
-![Screenshot Continentes](screenshots/main_crud_continentes.png)
+![Screenshot Continents](screenshots/main_crud_continentes.png)
 
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
-Pantalla principal de CRUD de paises:
+Countries screen:
 
-![Screenshot Paises](screenshots/main_crud_paises.png)
+![Screenshot Countries](screenshots/main_crud_paises.png)
 
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
-Pantalla principal de CRUD de ciudades:
+Cities screen:
 
-![Screenshot Ciudades](screenshots/main_crud_ciudades.png)
+![Screenshot Cities](screenshots/main_crud_ciudades.png)
 
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 
